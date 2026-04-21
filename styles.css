@@ -448,6 +448,33 @@ code {
   font-weight: 800;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  display: inline-flex;
+  min-height: 2.3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.58rem 0.78rem;
+  border: 1px solid rgba(110, 231, 249, 0.26);
+  background: rgba(110, 231, 249, 0.08);
+  color: var(--text);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.project-links a:hover,
+.project-links a:focus-visible {
+  border-color: rgba(141, 245, 181, 0.42);
+  background: rgba(141, 245, 181, 0.11);
+}
+
 .closing {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
